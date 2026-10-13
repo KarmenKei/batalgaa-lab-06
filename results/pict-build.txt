@@ -1,0 +1,21 @@
+Microsoft PICT build verification
+Date: Tue Oct 13 21:07:33 +08 2026
+Source: https://github.com/microsoft/pict
+Source commit: ab76c25 (2026-09-08)
+
+Pairwise Independent Combinatorial Testing
+
+Usage: pict model [options]
+
+Options:
+ /o:N|max         - Order of combinations (default: 2)
+ /d:C             - Separator for values  (default: ,)
+ /a:C             - Separator for aliases (default: |)
+ /n:C             - Negative value prefix (default: ~)
+ /e:file          - File with seeding rows
+ /r[:N]           - Randomize generation, N - seed
+ /b:N             - Try N seeds, keep the smallest suite
+ /t:N             - Number of worker threads (default: auto)
+ /f[:text|json]   - Output format (default: text)
+ /c               - Case-sensitive model evaluation
+ /s               - Show model statistics
