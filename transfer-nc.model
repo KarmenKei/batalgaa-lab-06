@@ -1,0 +1,4 @@
+From: Existing, Missing, Frozen, LowBalance, AtLimit
+To: Existing, Missing, Frozen, SameAsFrom
+Amount: Normal, Zero, Negative, AboveBalance, AboveLimit
+Currency: MNT, USD, EUR
