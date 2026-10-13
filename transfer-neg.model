@@ -1,0 +1,7 @@
+From: Existing, ~Missing, ~Frozen, LowBalance, AtLimit
+To: Existing, ~Missing, ~Frozen, ~SameAsFrom
+Amount: Normal, ~Zero, ~Negative, ~AboveBalance, ~AboveLimit
+Currency: MNT, USD, EUR
+
+IF [From] = "Missing" THEN [Amount] = "Normal";
+IF [To] = "Missing" THEN [Amount] = "Normal";
